@@ -223,6 +223,8 @@ footer {
     color: black;
     font-weight: bolder;
     align-items: center;
+    position: relative;
+    bottom: 0;
 }
 
 footer > a > img {
