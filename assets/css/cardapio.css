@@ -158,8 +158,7 @@ footer {
     color: black;
     font-weight: bolder;
     align-items: center;
-    position: absolute;
-    width: 100%;
+    position: static;
     bottom: 0;
 }
 
@@ -235,5 +234,11 @@ footer > a > img {
 
     .box_pdf {
         display: none;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }
 }
