@@ -111,6 +111,10 @@
     align-items: center;
 }
 
+.download {
+    display: none;
+}
+
 .itens_navbar {
     list-style: none;
     padding: 10px;
@@ -154,7 +158,8 @@ footer {
     color: black;
     font-weight: bolder;
     align-items: center;
-    position: static;
+    position: absolute;
+    width: 100%;
     bottom: 0;
 }
 
@@ -204,9 +209,31 @@ footer > a > img {
         border-radius: 5px;
     }
 
-    iframe {
-        width: 340px;
-        height: 800px;
+    .download {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        margin: 20% auto;
+        background-color: #B21236;
+        width: 150px;
+        padding: 5px;
+        font-weight: bolder;
+        border-radius: 5px;
+        align-items: center;
     }
 
+    .download > span {
+        color: var(--color2);
+    }
+
+    .download > a {
+        color: var(--color2);
+    }
+
+    .box_pdf {
+        display: none;
+    }
 }
